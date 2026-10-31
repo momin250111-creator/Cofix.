@@ -1,0 +1,16 @@
+name: CoFix
+version: 1.0.0
+main: com.cofix.CoFixPlugin
+api-version: '1.21'
+author: OpenAI
+website: https://papermc.io/
+description: World snapshot and block-state restoration utility.
+commands:
+  cofix:
+    description: Save or restore a CoFix world snapshot.
+    usage: /cofix [save|status|radius]
+    permission: cofix.admin
+permissions:
+  cofix.admin:
+    description: Allows saving and restoring CoFix snapshots.
+    default: op

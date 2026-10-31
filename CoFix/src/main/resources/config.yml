@@ -1,0 +1,6 @@
+# Number of chunks processed per server tick during save/restore.
+# Higher values are faster but may cause more lag. Start with 1.
+chunks-per-tick: 1
+
+# Captures all Bukkit-loaded worlds (Overworld, Nether, End, and custom worlds).
+# Snapshot captures block data, container inventories, and sign text.
